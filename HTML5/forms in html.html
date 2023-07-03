@@ -109,7 +109,37 @@
         </select>
         <button>submit</button>
        </div>
+       <label for="vol">volume</label>
+       <input type="range" id="vol" min="0" max="100" name =vol >
+               <button>submit</button>
+            <label for="feedback">provide feedback</label>
+            <textarea name="feedback" id="feedback" placeholder="type here" cols="30" rows="10"></textarea>
+            <button>submit</button>
+
     </form>
+</section> <hr>
+<section>
+<form action="/server">
+    <h1>registration form</h1>
+    <label for="fn">first name</label>
+    <input type="text" id="fn" placeholder="first name" name="" value="">
+    <label for="ln">last name</label>
+    <input type="text" id="ln" placeholder="last name" name="" value="">
+    <br>
+    <label for="g">    please select gender </label>
+    
+        <select name="gender" id="g">
+            <option value="select">select</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            do you agree?
+            <input type="checkbox" id="ag" name="ag" value="yes">
+            <label for="ag">yes agree</label>
+
+            <button>register</button>
+        </select>
+    
+</form>
 </section>
 
 </body>
