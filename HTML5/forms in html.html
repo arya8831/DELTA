@@ -60,11 +60,43 @@
 </section>
 <hr>
 <section>
-    <form action="https://www.google.com/search?">
+    <form action="/server">
         <label for="search">
             <input type="text" placeholder="search in google" id="search" name="q">
             <button type="submit">submit</button>
         </label>
+        //checkbox element
+        <br>
+
+        <label for="age">over 18?</label>
+        <input type="checkbox"  id="age" name="age" checked>
+        <br>
+        //radio button
+        <br>
+        <input type="radio" name="fruit" id="apple" value="apple" checked>
+        <label for="apple">apple</label>
+
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango">mango</label>
+
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana">banana</label>
+
+        <button type="submit">submit</button>
+        <br>
+        <div>
+            check the subjects:
+            <input type="checkbox" name="sub" id="maths" value="maths" checked>
+            <label for="maths">maths</label>
+
+            <input type="checkbox" name="sub" id="physics" value="physics">
+            <label for="physics">physics</label>
+
+            <input type="checkbox" name="sub" id="chemistry" value="chemistry">
+            <label for="chemistry">chemistry</label>
+            
+            <button type="submit">submit</button>
+        </div>
     </form>
 </section>
 
