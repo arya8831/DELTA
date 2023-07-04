@@ -7,7 +7,10 @@ h1{
 
 p{
     color: brown;
+    line-height: 1.5;
     font-size: larger;
+    font-weight: 800;
+    text-decoration: rgb(17, 227, 143) line-through;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: coral;
 }
