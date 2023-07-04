@@ -4,3 +4,17 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(24, 222, 222);
 }
+
+p{
+    color: brown;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: coral;
+}
+button{
+
+    color: blueviolet;background-color: aquamarine;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: orange;
+}
