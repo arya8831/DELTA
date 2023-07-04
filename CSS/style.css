@@ -1,8 +1,13 @@
 h1{
     color: burlywood;
     font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: league spartan;
+    font-size: 55px;
+     font-weight: 900;
+    text-decoration:teal double underline;
+    letter-spacing: 20px;
     background-color: rgb(24, 222, 222);
+    text-transform: uppercase;
 }
 
 p{
