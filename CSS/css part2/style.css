@@ -18,3 +18,7 @@ p a{
     background-color: yellow;
 
 }
+
+p+h3{
+    text-decoration: underline;
+}
