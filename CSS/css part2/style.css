@@ -13,3 +13,8 @@ h1{
 .a{
     background-color: aquamarine;
 }
+p a{
+    color: aquamarine;
+    background-color: yellow;
+
+}
