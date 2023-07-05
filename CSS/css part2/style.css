@@ -1,0 +1,15 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #b92b27;
+}
+#login{
+    background-color: aliceblue;
+}
+#signup{
+    background-color: #b92b27;
+}
+.a{
+    background-color: aquamarine;
+}
