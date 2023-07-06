@@ -22,3 +22,17 @@ p a{
 p+h3{
     text-decoration: underline;
 }
+
+input[type="text"]{
+    color:blueviolet;
+}
+input[type="password"]{
+    background-color: aquamarine;
+}
+div[id="myid"] p{
+    color: #b92b27;
+}
+button:hover{
+    background-color: #b92b27;
+    color: azure;
+}
