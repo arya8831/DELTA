@@ -1,4 +1,4 @@
-div{
+.start{
     height:400px;
     width:400px;
     background-color: rgba(255, 0, 0, .5);
@@ -7,10 +7,44 @@ div{
     margin: 0 auto;
     transition: margin-top 2s ease-in-out 0.2s; 
 }
-div:hover{
+.start:hover{
   
    margin-top: 400px;
    background-color: aqua;
 
    border-radius: 50%;
+}
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: yellow;
+}
+div:nth-of-type(3n){
+    background-color: blue;
+}
+#one{
+    transform: rotate(45deg);
+
+}
+#two{
+    transform: scale(2);
+
+}
+#three{
+
+}
+#four{
+
+}
+#five{
+
 }
