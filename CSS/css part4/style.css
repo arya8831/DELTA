@@ -6,6 +6,7 @@
     margin-top: 10px;
     margin: 0 auto;
     transition: margin-top 2s ease-in-out 0.2s; 
+    box-shadow: 5px 5px 10px black;
 }
 .start:hover{
   
@@ -22,8 +23,7 @@ div{
     height: 50px;
     text-align: center;
     background-color: aqua;
-    border: 2px solid black;
-    margin: 10px;
+    margin: 10px auto;
 }
 div:nth-of-type(2n){
     background-color: yellow;
@@ -36,15 +36,18 @@ div:nth-of-type(3n){
 
 }
 #two{
-    transform: scale(2);
+    transform: scale(2 ,0.5);
 
 }
 #three{
+    transform: translate(100px,100px);
 
 }
 #four{
+    transform: skew(30deg);
 
 }
 #five{
+    transform: rotate(30deg) translate(150px) skew(30deg) scale(2,0.75);
 
 }
