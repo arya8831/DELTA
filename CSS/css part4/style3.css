@@ -7,3 +7,28 @@ div{
     margin: 20px;
     display: inline-block;
 }
+#static{
+    background-color: blue;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#relative{
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+#absolute{
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#fixed{
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
