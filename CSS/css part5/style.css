@@ -2,19 +2,24 @@ h1{
     text-align: center;
 }
 #container{
-    height: 700px;
+    height: 600px;
     width: 80%;
     margin: 10px auto;
     border: 2px solid black;
     background-color: azure;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; 
-    flex-wrap: wrap-reverse;
+    justify-content: flex-start; 
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+    align-content: flex-end;
+}
+#org{
+    align-self: baseline;
 }
 #container div{
     height: 150px;
-    width: 300px;
+    width: 400px;
     font-size: 2em;
     color: aliceblue;
     text-align: center;
