@@ -3,8 +3,21 @@
     height: 300px;
     background-color: aqua;
     display: grid;
-    grid-template-rows:  600px600px600px600px600px;
-    grid-template-columns: auto auto auto auto  ;
+    /* grid-template-rows:  600px600px600px600px600px;
+    grid-template-columns: auto auto auto auto  ; */
+    grid-template-rows: repeat(4 ,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.two{
+    grid-row-start: 1;
+    grid-row-end:3 ;
 }
 .item{
     /* width: 100px; */
